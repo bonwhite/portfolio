@@ -253,17 +253,7 @@ background-color: rgba(255, 255, 255, .8);
   width: 50%;
 }
 
-footer{
-  background-attachment: fixed; /* Parallax effect */     
-  background-position: center;  /* Parallax effect */
-  background-repeat: no-repeat; /* Parallax effect */
-  background-size: cover;       /* Parallax effect */
-  color: white;
-  height: 400px;                /* Parallax effect */
-  background-image: url("../images/wedding.jpg");
-  grid-column: 1 / -1;  /*Can you explain what this does?*/
-  grid-row: 1 / auto;   /*Can you rewrite it?*/
-} 
+
 
 /* Media Query 1 Tablet Size */
 
@@ -275,7 +265,18 @@ footer{
     justify-content: center;
   }
 
-  
+  footer{
+    background-attachment: fixed;     
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-size: cover;       
+    color: white;
+    height: 400px;                
+    background-image: url("../images/wedding.jpg");
+    grid-column: 1 / -1;  
+    grid-row: 1 / auto;   
+  } 
+
 }
 
 /* Media Query 2 Laptop Size */
